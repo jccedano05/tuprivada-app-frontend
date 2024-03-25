@@ -1,0 +1,38 @@
+.login__container {
+  padding: 0px 5%;
+  margin: 0px;
+  background-color: #fcf9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  Image {
+    margin-top: 87px;
+  }
+
+  .login__InputText {
+    margin-top: 42px;
+  }
+  .login__InputTextWithIcon {
+    margin-top: 24px;
+  }
+  .login__linkForgotPassword {
+    color: rgba($color: #011730, $alpha: 0.7);
+    font-size: 12px;
+    align-self: self-end;
+    margin-top: 8px;
+    cursor: pointer;
+    line-height: 1.4;
+
+    &:hover {
+      color: rgba($color: #001226, $alpha: 0.7);
+    }
+    &:active {
+      color: rgba($color: #3d4c5d, $alpha: 0.7);
+    }
+  }
+
+  .login__btnLogin {
+    margin-top: 24px;
+  }
+}

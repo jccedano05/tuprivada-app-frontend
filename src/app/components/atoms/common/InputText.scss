@@ -1,0 +1,36 @@
+$input-placeholder-margin: 32px;
+
+.inputText {
+  background-color: white;
+  color: #002959;
+  width: calc(100% - $input-placeholder-margin);
+  max-width: 400px - $input-placeholder-margin;
+  height: 56px;
+  border: 1px solid rgba($color: #333e63, $alpha: 0.3);
+  border-radius: 8px;
+  font-size: $input-placeholder-margin;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+
+  input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: inherit;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: #002959;
+
+    &:active {
+      color: #406288;
+    }
+  }
+}
